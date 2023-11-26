@@ -8,17 +8,17 @@
 <body>
 <div class="card">
     <div class="card-header text-bg-dark mb-3">
-        Autenticación
+        Cambia tu Password
     </div>
     <div class="card-body">
         <form th:action="@{/auth/login}" method="post">
             <div class="mb-3">
-                <label for="nomusuario" class="form-label">Usuario</label>
+                <label for="nomusuario" class="form-label">Nuevo Password</label>
                 <input maxlength="15" type="text" class="form-control"
                        name="nomusuario" id="nomusuario">
             </div>
             <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
+                <label for="password" class="form-label"> Repite Nuevo Password</label>
                 <input maxlength="15" type="password" class="form-control"
                        name="password" id="password">
             </div>
